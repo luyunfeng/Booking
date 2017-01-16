@@ -1,0 +1,41 @@
+<div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：电影管理-》添加电影</span>
+
+            </span>
+</div>
+<div style="font-size: 13px;margin: 10px 5px">
+    <form action="__SELF__" method="post" enctype="multipart/form-data">
+        <table border="1" width="100%" class="table_a">
+            <tr>
+                <td>电影名称</td>
+                <td><input type="text" name="filmname"/></td>
+            </tr>
+            <tr>
+                <td>电影主演</td>
+                <td>
+                    <input type="text" name="zhuyan"/>
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+
+            <tr>
+                <td>电影简介</td>
+                <td>
+                    <textarea id="info" name="info" style="width: 100% ;height: 280px"></textarea>
+                </td>
+                <script type="text/javascript">
+                    var ue = UE.getEditor('info');
+               </script>
+                    </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="添加">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

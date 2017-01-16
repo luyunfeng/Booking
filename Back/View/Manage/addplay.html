@@ -1,0 +1,33 @@
+<div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：电影播放管理-》添加电影场次</span>
+
+            </span>
+</div>
+
+<div style="font-size: 13px;margin: 10px 5px">
+    <form action="{:U('Manage/showfilm')}?filmid={$data[0]['filmid']}" method="post" enctype="multipart/form-data">
+        <table border="1" width="100%" class="table_a">
+            <tr>
+                <td>电影名称</td>
+                <td>{$data[0]["filmname"]}</td>
+            </tr>
+            <tr>
+                <td>播放时间</td>
+                <td><input type="date"  name="playdate" />
+                    <input type="time"  name="playhour" /></td>
+            </tr>
+            <tr>
+                <td>票价</td>
+                <td>
+                    <input type="text" name="price"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="添加">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

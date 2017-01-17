@@ -86,7 +86,6 @@
     <column id="24" parent="8" name="userid">
       <Position>4</Position>
       <DataType>int(30)|0</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="25" parent="8" name="location">
       <Position>5</Position>

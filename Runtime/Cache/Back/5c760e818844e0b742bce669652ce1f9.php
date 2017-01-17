@@ -11,14 +11,23 @@
     <script type="text/javascript" charset="utf-8" src="<?php echo (C("PLUGIN_URL")); ?>ueditor/ueditor.all.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="<?php echo (C("PLUGIN_URL")); ?>ueditor/lang/zh-cn/zh-cn.js"></script>
     <script type='text/javascript'>
+        /*在配置的时候 需要将网站的根目录权限提高 才能上传
+         chmod -R 777 目录*/
         UEDITOR_CONFIG.toolbars = [[
             'fullscreen', 'source', '|', 'undo', 'redo', '|',
-            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough',
+            'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset',
+            'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist',
+            'insertunorderedlist', 'selectall', 'cleardoc', '|',
             'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
             'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
             'directionalityltr', 'directionalityrtl', 'indent', '|',
-            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|', 'touppercase', 'tolowercase', '|',
-            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|'
+            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|',
+            'touppercase', 'tolowercase', '|',
+            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright',
+            'imagecenter', '|',
+            'simpleupload', 'insertimage',
+
         ]];
 
     </script>
@@ -51,10 +60,10 @@
 
                 </ul>
             </li>
-            <li><a class="no" href="#">电影票管理</a>
+            <li><a class="no" href="#">电影播放管理</a>
                 <ul>
-                    <li><a href="<?php echo U('Manage/addticket');?>">添加电影票</a></li>
-                    <li><a href="<?php echo U('Manage/updateticket');?>">修改电影票</a></li>
+                    <li><a href="<?php echo U('Manage/showfilm');?>">添加电影场次</a></li>
+                    <li><a href="<?php echo U('Manage/updateplay');?>">修改电影票场次</a></li>
                 </ul>
             </li>
             <li><a class="no" href="#">用户管理</a>

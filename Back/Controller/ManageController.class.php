@@ -14,7 +14,7 @@ class ManageController extends Controller
 
     public function addfilm()
     {
-        //$film = new Model\ManageModel("film");
+
         $film = D("film");
         if (IS_POST) {
             $data = $film->create();
@@ -57,12 +57,11 @@ class ManageController extends Controller
                 "time" => $_POST["playdate"] . " " . $_POST["playhour"]
             );
             //现将 数据放入 playtime这张表中 并得到新增数据表的 主键
+            // userid=null表示还没有卖出去
             $playid = $playtime->add($data_playtime);
 
             $data_ticket = array(
                 "price" => $_POST["price"],
-                //0号用户表示票没有卖出去
-                "userid" => 0,
                 "playid" => $playid,
             );
             $k = 0;
@@ -98,6 +97,24 @@ class ManageController extends Controller
 
     public function updateplay()
     {
+
+        $playtime = D('playtime');
+        //删除指定的场次  通过URL参数传递
+        if ($_GET["playid"]) {
+            $playtime->delete($_GET["playid"]);
+        }
+        //  编号	电影名字	播放时间	已售票数	剩余票数	操作
+        $sql = "SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) AS 'sell',40-count(booking_ticket.userid) AS 'remain'
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid";
+        $showplay=D();
+        $data = $showplay->query($sql);
+        //根据playid查询 买票情况 做统计
+
+        $this->assign('data', $data);
         $this->display();
     }
 

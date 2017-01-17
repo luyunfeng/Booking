@@ -5096,3 +5096,1280 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
 
+[ 2017-01-16T20:59:45+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+ERR: 非法操作:addticket
+
+[ 2017-01-16T20:59:55+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-01-16T21:00:00+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-01-16T21:00:01+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-01-16T21:00:03+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-01-16T21:00:10+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updatefilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: filmid /Applications/MAMP/htdocs/Booking/Back/Controller/ManageController.class.php 第 38 行.
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-01-16T21:00:14+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-01-16T21:00:27+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-01-16T21:00:30+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-01-16T21:07:22+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-01-16T21:07:26+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-01-16T21:08:46+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-01-16T21:14:56+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: filmid /Applications/MAMP/htdocs/Booking/Back/Controller/ManageController.class.php 第 105 行.
+SQL: SELECT * FROM `booking_playtime`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-01-16T21:16:21+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: filmid /Applications/MAMP/htdocs/Booking/Back/Controller/ManageController.class.php 第 105 行.
+SQL: SELECT * FROM `booking_playtime`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-01-16T21:49:18+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-01-16T21:49:21+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addplay.html?filmid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `booking_film` WHERE `filmid` = 9  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-01-16T21:49:35+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html?filmid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0008s ]
+SQL: INSERT INTO `booking_playtime` (`filmid`,`time`) VALUES ('9','2017-01-04 12:05') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`userid`,`playid`) VALUES ('66','0','33') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-01-16T21:49:37+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-01-16T21:51:18+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addplay.html?filmid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `booking_film` WHERE `filmid` = 9  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-01-16T21:51:36+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html?filmid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0009s ]
+SQL: INSERT INTO `booking_playtime` (`filmid`,`time`) VALUES ('9','2017-01-04 00:09') [ RunTime:0.0006s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0006s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0008s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0012s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0006s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','34') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-01-16T21:51:38+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-01-16T22:10:12+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0010s ]
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) ,40-count(booking_ticket.userid) 
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-01-16T22:14:45+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0008s ]
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) ,40-count(booking_ticket.userid) 
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: info /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 120 行.
+NOTIC: [8] Undefined index: info /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-01-16T22:17:55+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0009s ]
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) AS 'sell',40-count(booking_ticket.userid) AS 'remain'
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: info /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 120 行.
+NOTIC: [8] Undefined index: info /Applications/MAMP/htdocs/Booking/Runtime/Cache/Back/5a728f92ee925e9e7783519ad2ef9c94.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-01-16T22:18:30+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0008s ]
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) AS 'sell',40-count(booking_ticket.userid) AS 'remain'
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/ThinkPHP/Common/functions.php:852) /Applications/MAMP/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-01-16T22:21:00+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: playid /Applications/MAMP/htdocs/Booking/Back/Controller/ManageController.class.php 第 103 行.
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) AS 'sell',40-count(booking_ticket.userid) AS 'remain'
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-01-16T22:21:10+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html?playid=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0020s ]
+SQL: DELETE FROM `booking_playtime` WHERE `playid` = 33 [ RunTime:0.0008s ]
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) AS 'sell',40-count(booking_ticket.userid) AS 'remain'
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-01-16T22:22:28+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-01-16T22:24:11+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: INSERT INTO `booking_film` (`filmname`,`zhuyan`,`info`) VALUES ('变形金刚1','不知道','<p>这是变1啊 。</p><p>简介</p><p>。。。</p><p><br/></p><p><br/></p><p>。。</p><p><br/></p><p><br/></p><p><img src=\"/Booking/UploadImage/20170116/1484576609831015.jpg\" title=\"1484576609831015.jpg\" alt=\"1484576609831015.jpg\" width=\"600\" height=\"400\" border=\"0\" vspace=\"0\" style=\"width: 600px; height: 400px;\"/></p>') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-01-16T22:24:13+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-01-16T22:24:16+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updatefilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: filmid /Applications/MAMP/htdocs/Booking/Back/Controller/ManageController.class.php 第 38 行.
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-01-16T22:24:21+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-01-16T22:24:26+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addplay.html?filmid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `booking_film` WHERE `filmid` = 9  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-01-16T22:24:38+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html?filmid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0010s ]
+SQL: INSERT INTO `booking_playtime` (`filmid`,`time`) VALUES ('9','2017-01-02 12:59') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('99','35') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-01-16T22:24:40+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-01-16T22:24:44+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addplay.html?filmid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `booking_film` WHERE `filmid` = 10  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-01-16T22:24:57+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html?filmid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0009s ]
+SQL: INSERT INTO `booking_playtime` (`filmid`,`time`) VALUES ('10','2017-01-12 12:59') [ RunTime:0.0005s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','36') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-01-16T22:24:59+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-01-16T22:25:02+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addplay.html?filmid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `booking_film` WHERE `filmid` = 10  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-01-16T22:25:16+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html?filmid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `booking_ticket` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0010s ]
+SQL: INSERT INTO `booking_playtime` (`filmid`,`time`) VALUES ('10','2017-01-25 12:59') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0004s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0001s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0003s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+SQL: INSERT INTO `booking_ticket` (`price`,`playid`) VALUES ('66','37') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-01-16T22:25:18+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-01-16T22:25:22+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: playid /Applications/MAMP/htdocs/Booking/Back/Controller/ManageController.class.php 第 103 行.
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) AS 'sell',40-count(booking_ticket.userid) AS 'remain'
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-01-16T22:25:34+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updateplay.html?playid=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `booking_playtime` [ RunTime:0.0019s ]
+SQL: DELETE FROM `booking_playtime` WHERE `playid` = 37 [ RunTime:0.0010s ]
+SQL: SELECT  booking_playtime.playid, booking_film.filmname,booking_playtime.time,
+                  count(booking_ticket.userid) AS 'sell',40-count(booking_ticket.userid) AS 'remain'
+                FROM booking_ticket,booking_playtime,booking_film
+                WHERE booking_film.filmid=booking_playtime.filmid AND
+                       booking_playtime.playid=booking_ticket.playid
+                GROUP BY booking_playtime.playid [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-01-16T22:25:37+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/showfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-01-16T22:25:45+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/addfilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-01-16T22:25:48+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/updatefilm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `booking_film` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: filmid /Applications/MAMP/htdocs/Booking/Back/Controller/ManageController.class.php 第 38 行.
+SQL: SELECT * FROM `booking_film`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+

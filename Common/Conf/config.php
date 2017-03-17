@@ -1,5 +1,8 @@
 <?php
 return array(
+    //增加调试信息  在上线的屏蔽掉
+    SHOW_PAGE_TRACE => true,
+    'VAR_AJAX_SUBMIT'  =>  'ajax',  // 默认的AJAX提交变量
     //前台
     'CSS_URL' => '/Booking/Home/Public/css/',
     'JS_URL' => '/Booking/Home/Public/js/',

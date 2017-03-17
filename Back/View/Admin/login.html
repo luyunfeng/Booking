@@ -19,7 +19,7 @@
             </ul>
         </dd>
         <dd id="user_main">
-            <form action="#" method="post">
+            <form action="__SELF__" method="post">
                 <ul>
                     <li class="user_main_l"></li>
                     <li class="user_main_c">
@@ -40,19 +40,20 @@
                                 <li class="user_main_text">验证码：</li>
                                 <li class="user_main_input">
                                     <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                    <img src="{$Think.config.BACK_IMG_URL}admin.png" alt=""/>
+                                    <img src="{:U('Admin/verifyImg')}" onclick="this.src='{:U(\'Admin/verifyImg\')}'" />
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="user_main_r">
-
-                        <input style="border: medium none; background: url('{$Think.config.BACK_IMG_URL}user_botton.gif') repeat-x scroll left top transparent; height: 122px; width: 111px; display: block; cursor: pointer;"
+                        <input style="border: medium none; background: url('{$Think.config.BACK_IMG_URL}user_botton.gif')
+                        repeat-x scroll left top transparent; height: 122px; width: 111px; display: block; cursor: pointer;"
                                value="" type="submit">
                     </li>
                 </ul>
             </form>
         </dd>
+
         <dd id="user_bottom">
             <ul>
                 <li class="user_bottom_l"></li>
@@ -62,6 +63,7 @@
         </dd>
     </dl>
 </div>
+<div style="color:#F00 ;font-size:20px;">{$error}</div>
 <span id="ValrUserName" style="display: none; color: red;"></span><span id="ValrPassword"
                                                                         style="display: none; color: red;"></span><span
         id="ValrValidateCode" style="display: none; color: red;"></span>

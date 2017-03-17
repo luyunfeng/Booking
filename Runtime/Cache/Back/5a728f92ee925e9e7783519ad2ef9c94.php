@@ -39,9 +39,11 @@
     <tr height=56>
         <td width=260><img height=56 src="<?php echo (C("BACK_IMG_URL")); ?>header_left.jpg"
                            width=260></td>
-        <td style="font-weight: bold; color: #fff; padding-top: 20px" align=middle>当前用户：admin &nbsp;
-            &nbsp; <a style="color: #fff" href="" target=main>修改口令</a> &nbsp;&nbsp;
-            <a style="color: #fff" onclick="if (confirm('确定要退出吗？')) return true; else return false;" href=""
+        <td style="font-weight: bold; color: #fff; padding-top: 20px" align=middle>当前用户：<?php echo ($admin_name); ?>
+            &nbsp;
+            <a style="color: #fff"
+               onclick="if (confirm('确定要退出吗？')) return true; else return false;"
+               href="<?php echo U('Admin/layout');?>"
                target=_top>退出系统</a>
         </td>
         <td align=right width=268>
@@ -53,22 +55,22 @@
     <nav>
         <ul id="ddmenu">
             <li><a class="no" href="<?php echo U('Manage/index');?>">管理中心</a></li>
-            <li><a class="no" href="#">电影管理</a>
+            <li><a class="no" href="">电影管理</a>
                 <ul>
                     <li><a href="<?php echo U('Manage/addfilm');?>">添加电影</a></li>
                     <li><a href="<?php echo U('Manage/updatefilm');?>">修改电影</a></li>
 
                 </ul>
             </li>
-            <li><a class="no" href="#">电影播放管理</a>
+            <li><a class="no" href="">电影播放管理</a>
                 <ul>
                     <li><a href="<?php echo U('Manage/showfilm');?>">添加电影场次</a></li>
                     <li><a href="<?php echo U('Manage/updateplay');?>">电影场次修改</a></li>
                 </ul>
             </li>
-            <li><a class="no" href="#">用户管理</a>
+            <li><a class="no" href="">用户管理</a>
                 <ul>
-                    <li><a href="#">拉黑</a></li>
+                    <li><a href="<?php echo U('Manage/usermanage');?>">更新用户信息</a></li>
 
                 </ul>
             </li>

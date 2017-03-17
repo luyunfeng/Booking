@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!--这个是默认的上下布局文件-->
+<?php if (!defined('THINK_PATH')) exit();?><!-- 这个是默认的上下布局文件-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
@@ -39,23 +39,21 @@
 							<input type="password" class="txt" name="password" />
 							<a href="">忘记密码?</a>
 						</li>
+
 						<li class="checkcode">
 							<label for="">验证码：</label>
 							<input type="text"  name="checkcode" />
-							<img src="<?php echo (C("IMG_URL")); ?>checkcode1.jpg" alt="" />
-							<span>看不清？<a href="">换一张</a></span>
+							<img src="<?php echo U('User/verifyImg');?>" onclick="this.src='<?php echo U('User/verifyImg');?>'" />
+
 						</li>
+
 						<li>
-							<label for="">&nbsp;</label>
-							<input type="checkbox" class="chb"  /> 保存登录信息
-						</li>
-						<li>
-							<label for="">&nbsp;</label>
-							<input type="submit" value="" class="login_btn" />
+							<input type="submit" value="登陆" class="reg_btn" />
+
 						</li>
 					</ul>
 				</form>
-
+				<div style="color:#F00 ;font-size:20px;"><?php echo ($error); ?></div>
 				<div class="coagent mt15">
 					<dl>
 						<dt>使用合作网站登录商城：</dt>
@@ -64,7 +62,6 @@
 						<dd class="yi"><a href=""><span></span>网易</a></dd>
 						<dd class="renren"><a href=""><span></span>人人</a></dd>
 						<dd class="qihu"><a href=""><span></span>奇虎360</a></dd>
-						<dd class=""><a href=""><span></span>百度</a></dd>
 						<dd class="douban"><a href=""><span></span>豆瓣</a></dd>
 					</dl>
 				</div>
@@ -73,7 +70,6 @@
 			<div class="guide fl">
 				<h3>还不是用户</h3>
 				<p>现在免费注册成为电影院用户，便能立刻享受便宜又放心的订票，心动不如行动，赶紧加入吧!</p>
-
 				<a href="regist.html" class="reg_btn">免费注册 >></a>
 			</div>
 

@@ -22,7 +22,7 @@
             <td>{$v.zhuyan}</td>
             <td>{$v.info}</td>
             <!--通过URL参数传递需要删除的电影id-->
-            <td>  <a href="{:U('Manage/updatefilm')}?filmid={$v.filmid}">删除</a></td>
+            <td>  <a onclick="if (confirm('确定要删除吗？')) return true; else return false;" href="{:U('Manage/updatefilm')}?filmid={$v.filmid}">删除</a></td>
         </tr>
         </foreach>
         <tr>

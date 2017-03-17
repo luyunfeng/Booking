@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!--这个是默认的上下布局文件-->
+<?php if (!defined('THINK_PATH')) exit();?><!-- 这个是默认的上下布局文件-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
@@ -40,14 +40,14 @@
 							<p>6-20位字符，可使用字母、数字和符号的组合，不建议使用纯数字、纯字母、纯符号</p>
 						</li>
 						<li>
-							<label for="">确认密码：</label>
-							<input type="password" class="txt" name="password" />
-							<p> <span>请再次输入密码</p>
+							<label for="">联系方式：</label>
+							<input type="text" class="txt" name="phone" />
+
 						</li>
 						<li class="checkcode">
 							<label for="">验证码：</label>
 							<input type="text"  name="checkcode" />
-							<img src="<?php echo (C("IMG_URL")); ?>checkcode1.jpg" alt="" />
+							<img src="<?php echo U('User/verifyImg');?>" onclick="this.src='<?php echo U('User/verifyImg');?>'"  />
 							<span>看不清？<a href="">换一张</a></span>
 						</li>
 						<li>
@@ -55,12 +55,12 @@
 							<input type="checkbox" class="chb" checked="checked" /> 我已阅读并同意《用户注册协议》
 						</li>
 						<li>
-							<label for="">&nbsp;</label>
-							<input type="submit" value="" class="login_btn" />
-						</li>
+                            <input type="submit" value="注册" class="reg_btn" />
+                        </li>
+
 					</ul>
 				</form>
-
+				<div style="color:#F00 ;font-size:20px;"><?php echo ($error); ?></div>
 				
 			</div>
 

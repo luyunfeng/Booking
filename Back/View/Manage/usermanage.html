@@ -1,0 +1,26 @@
+<div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：用户管理-》更新用户信息</span>
+            </span>
+</div>
+<div style="font-size: 13px; margin: 10px 5px;">
+    <table class="table_a" border="1" width="100%">
+        <tbody>
+        <tr style="font-weight: bold;">
+            <td>用户id</td>
+            <td>用户名</td>
+            <td>联系方式</td>
+            <td align="center">操作</td>
+        </tr>
+        <foreach name="data" item="v">
+            <tr id="product1">
+                <td>{$v.userid}</td>
+                <td><a href="">{$v.username}</a></td>
+                <td>{$v.phone}</td>
+                <td>  <a onclick="if (confirm('确定要拉黑吗？')) return true; else return false;" href="{:U('Manage/usermanage')}?userid={$v.userid}">拉黑用户</a></td>
+            </tr>
+        </foreach>
+
+        </tbody>
+    </table>
+</div>

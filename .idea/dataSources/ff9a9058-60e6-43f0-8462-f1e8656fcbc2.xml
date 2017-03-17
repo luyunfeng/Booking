@@ -11,133 +11,147 @@
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
-    <table id="6" parent="5" name="booking_film"/>
-    <table id="7" parent="5" name="booking_playtime"/>
-    <table id="8" parent="5" name="booking_ticket"/>
-    <table id="9" parent="5" name="booking_user"/>
-    <column id="10" parent="6" name="filmid">
+    <schema id="6" parent="1" name="db_blog"/>
+    <schema id="7" parent="1" name="student"/>
+    <schema id="8" parent="1" name="db_image"/>
+    <table id="9" parent="5" name="booking_admin"/>
+    <table id="10" parent="5" name="booking_film"/>
+    <table id="11" parent="5" name="booking_playtime"/>
+    <table id="12" parent="5" name="booking_ticket"/>
+    <table id="13" parent="5" name="booking_user"/>
+    <column id="14" parent="9" name="user">
+      <Position>1</Position>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="15" parent="9" name="password">
+      <Position>2</Position>
+      <DataType>varchar(16)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="10" name="filmid">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="11" parent="6" name="filmname">
+    <column id="17" parent="10" name="filmname">
       <Position>2</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="12" parent="6" name="zhuyan">
+    <column id="18" parent="10" name="zhuyan">
       <Position>3</Position>
       <DataType>varchar(32)|0</DataType>
     </column>
-    <column id="13" parent="6" name="info">
+    <column id="19" parent="10" name="info">
       <Position>4</Position>
       <DataType>text|0</DataType>
     </column>
-    <key id="14" parent="6" name="PRIMARY">
+    <key id="20" parent="10" name="PRIMARY">
       <ColNames>filmid</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="15" parent="7" name="playid">
+    <column id="21" parent="11" name="playid">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="16" parent="7" name="filmid">
+    <column id="22" parent="11" name="filmid">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="17" parent="7" name="time">
+    <column id="23" parent="11" name="time">
       <Position>3</Position>
       <DataType>varchar(30)|0</DataType>
     </column>
-    <index id="18" parent="7" name="filmid">
+    <column id="24" parent="11" name="price">
+      <Position>4</Position>
+      <DataType>decimal(5,1)|0</DataType>
+    </column>
+    <index id="25" parent="11" name="filmid">
       <ColNames>filmid</ColNames>
     </index>
-    <key id="19" parent="7" name="PRIMARY">
+    <key id="26" parent="11" name="PRIMARY">
       <ColNames>playid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="20" parent="7" name="booking_playtime_ibfk_1">
+    <foreign-key id="27" parent="11" name="booking_playtime_ibfk_1">
       <ColNames>filmid</ColNames>
       <RefSchemaName>booking</RefSchemaName>
       <RefTableName>booking_film</RefTableName>
       <RefColNames>filmid</RefColNames>
       <OnDelete>delete</OnDelete>
     </foreign-key>
-    <column id="21" parent="8" name="ticketid">
+    <column id="28" parent="12" name="ticketid">
       <Position>1</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="22" parent="8" name="price">
+    <column id="29" parent="12" name="playid">
       <Position>2</Position>
-      <DataType>decimal(5,1)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="23" parent="8" name="playid">
-      <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="24" parent="8" name="userid">
-      <Position>4</Position>
+    <column id="30" parent="12" name="userid">
+      <Position>3</Position>
       <DataType>int(30)|0</DataType>
     </column>
-    <column id="25" parent="8" name="location">
+    <column id="31" parent="12" name="selltime">
       <Position>5</Position>
-      <DataType>int(16)|0</DataType>
-    </column>
-    <column id="26" parent="8" name="selltime">
-      <Position>6</Position>
       <DataType>varchar(30)|0</DataType>
     </column>
-    <index id="27" parent="8" name="playid">
+    <column id="32" parent="12" name="seat">
+      <Position>4</Position>
+      <DataType>char(16)|0</DataType>
+    </column>
+    <index id="33" parent="12" name="playid">
       <ColNames>playid</ColNames>
     </index>
-    <index id="28" parent="8" name="userid">
+    <index id="34" parent="12" name="userid">
       <ColNames>userid</ColNames>
     </index>
-    <key id="29" parent="8" name="PRIMARY">
+    <key id="35" parent="12" name="PRIMARY">
       <ColNames>ticketid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="30" parent="8" name="booking_ticket_ibfk_1">
+    <foreign-key id="36" parent="12" name="booking_ticket_ibfk_1">
       <ColNames>playid</ColNames>
       <RefSchemaName>booking</RefSchemaName>
       <RefTableName>booking_playtime</RefTableName>
       <RefColNames>playid</RefColNames>
       <OnDelete>delete</OnDelete>
     </foreign-key>
-    <foreign-key id="31" parent="8" name="booking_ticket_ibfk_2">
+    <foreign-key id="37" parent="12" name="booking_ticket_ibfk_2">
       <ColNames>userid</ColNames>
       <RefSchemaName>booking</RefSchemaName>
       <RefTableName>booking_user</RefTableName>
       <RefColNames>userid</RefColNames>
       <OnDelete>delete</OnDelete>
     </foreign-key>
-    <column id="32" parent="9" name="userid">
+    <column id="38" parent="13" name="userid">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="33" parent="9" name="username">
+    <column id="39" parent="13" name="username">
       <Position>2</Position>
       <DataType>varchar(16)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="34" parent="9" name="phone">
+    <column id="40" parent="13" name="phone">
       <Position>3</Position>
       <DataType>varchar(16)|0</DataType>
     </column>
-    <column id="35" parent="9" name="password">
+    <column id="41" parent="13" name="password">
       <Position>4</Position>
       <DataType>varchar(32)|0</DataType>
     </column>
-    <key id="36" parent="9" name="PRIMARY">
+    <key id="42" parent="13" name="PRIMARY">
       <ColNames>userid</ColNames>
       <Primary>1</Primary>
     </key>

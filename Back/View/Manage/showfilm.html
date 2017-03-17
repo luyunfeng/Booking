@@ -16,17 +16,17 @@
         <foreach name="data" item="v">
             <tr id="product1">
                 <td>{$v.filmid}</td>
-                <td><a href="#">{$v.filmname}</a></td>
+                <td><a href="">{$v.filmname}</a></td>
                 <td>{$v.zhuyan}</td>
                 <td>{$v.info}</td>
                 <td>  <a href="{:U('Manage/addplay')}?filmid={$v.filmid}">播放管理</a></td>
             </tr>
         </foreach>
-        <tr>
+        <!--tr>
             <td colspan="20" style="text-align: center;">
                 [下一页]
             </td>
-        </tr>
+        </tr-->
         </tbody>
     </table>
 </div>

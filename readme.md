@@ -28,5 +28,5 @@
 
 ## 使用说明
 * 数据库在 Common/Conf/config.php 中配置
-* 在项目的同级目录放入hinkphp的目录(
+* 在项目的同级目录放入thinkphp的目录(
 如果项目放在 www 目录下, thinkphp 也直接放在那里就可以)

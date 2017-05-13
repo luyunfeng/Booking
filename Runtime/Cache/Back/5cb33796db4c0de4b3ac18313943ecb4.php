@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>管理中心</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="<?php echo (C("BACK_CSS_URL")); ?>admin.css" type="text/css" rel="stylesheet"/>
     <link href="<?php echo (C("BACK_CSS_URL")); ?>styles.css" type="text/css" rel="stylesheet"  media="all" >
     <script type="text/javascript" src="<?php echo (C("BACK_JS_URL")); ?>jquery.min.js"></script>
@@ -15,18 +16,13 @@
          chmod -R 777 目录*/
         UEDITOR_CONFIG.toolbars = [[
             'fullscreen', 'source', '|', 'undo', 'redo', '|',
-            'bold', 'italic', 'underline', 'fontborder', 'strikethrough',
-            'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset',
-            'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist',
-            'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
             'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
             'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
             'directionalityltr', 'directionalityrtl', 'indent', '|',
-            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|',
-            'touppercase', 'tolowercase', '|',
-            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright',
-            'imagecenter', '|',
-            'simpleupload', 'insertimage',
+            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|', 'touppercase', 'tolowercase', '|',
+            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+            'simpleupload', 'insertimage', 'emotion', 'scrawl', 'insertvideo', 'music', 'attachment', 'map', 'gmap', 'insertframe',
 
         ]];
 
@@ -98,32 +94,39 @@
 </script>
 <div class="div_head">
             <span>
-                <span style="float:left">当前位置是：电影播放管理-》添加电影场次</span>
+                <span style="float:left">当前位置是：电影管理-》修改电影</span>
 
             </span>
 </div>
-
 <div style="font-size: 13px;margin: 10px 5px">
-    <form action="<?php echo U('Manage/showfilm');?>?filmid=<?php echo ($data[0]['filmid']); ?>" method="post" enctype="multipart/form-data">
+    <form action="/Booking/index.php/Back/Manage/alterfilm.html?filmid=17" method="post" enctype="multipart/form-data">
         <table border="1" width="100%" class="table_a">
             <tr>
                 <td>电影名称</td>
-                <td><?php echo ($data[0]["filmname"]); ?></td>
+                <td><input type="text"  value="<?php echo ($data[0]["filmname"]); ?>" name="filmname"/></td>
             </tr>
             <tr>
-                <td>播放时间</td>
-                <td><input type="date"  name="playdate" />
-                    <input type="time"  name="playhour" /></td>
-            </tr>
-            <tr>
-                <td>票价</td>
+                <td>电影主演</td>
                 <td>
-                    <input type="text" name="price"/>
+                    <input type="text" name="zhuyan" value="<?php echo ($data[0]["zhuyan"]); ?>"/>
                 </td>
             </tr>
             <tr>
+
+            </tr>
+            <tr>
+                <td>电影简介</td>
+                <td>
+                    <textarea id="info" name="info" style="width: 100% ;height: 280px"><?php echo ($data[0]["info"]); ?></textarea>
+                </td>
+                <script type="text/javascript">
+                var ue = UE.getEditor('info');
+                </script>
+                    </tr>
+
+            <tr>
                 <td colspan="2" align="center">
-                    <input type="submit" value="添加">
+                    <input type="submit" onclick="if (confirm('确定修改吗？')) return true; else return false;" value="确认修改">
                 </td>
             </tr>
         </table>

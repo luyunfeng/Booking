@@ -98,37 +98,27 @@
 </script>
 <div class="div_head">
             <span>
-                <span style="float:left">当前位置是：电影播放管理-》添加电影场次</span>
-
+                <span style="float:left">当前位置是：用户管理-》更新用户信息</span>
             </span>
 </div>
+<div style="font-size: 13px; margin: 10px 5px;">
+    <table class="table_a" border="1" width="100%">
+        <tbody>
+        <tr style="font-weight: bold;">
+            <td>用户id</td>
+            <td>用户名</td>
+            <td>联系方式</td>
+            <td align="center">操作</td>
+        </tr>
+        <?php if(is_array($data)): foreach($data as $key=>$v): ?><tr id="product1">
+                <td><?php echo ($v["userid"]); ?></td>
+                <td><a href=""><?php echo ($v["username"]); ?></a></td>
+                <td><?php echo ($v["phone"]); ?></td>
+                <td>  <a onclick="if (confirm('确定要拉黑吗？')) return true; else return false;" href="<?php echo U('Manage/usermanage');?>?userid=<?php echo ($v["userid"]); ?>">拉黑用户</a></td>
+            </tr><?php endforeach; endif; ?>
 
-<div style="font-size: 13px;margin: 10px 5px">
-    <form action="<?php echo U('Manage/showfilm');?>?filmid=<?php echo ($data[0]['filmid']); ?>" method="post" enctype="multipart/form-data">
-        <table border="1" width="100%" class="table_a">
-            <tr>
-                <td>电影名称</td>
-                <td><?php echo ($data[0]["filmname"]); ?></td>
-            </tr>
-            <tr>
-                <td>播放时间</td>
-                <td><input type="date"  name="playdate" />
-                    <input type="time"  name="playhour" /></td>
-            </tr>
-            <tr>
-                <td>票价</td>
-                <td>
-                    <input type="text" name="price"/>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <input type="submit" value="添加">
-                </td>
-            </tr>
-        </table>
-    </form>
+        </tbody>
+    </table>
 </div>
-
 </body>
 </html>

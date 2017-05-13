@@ -8,8 +8,7 @@ use Think\Controller;
 class ManageController extends Controller
 {
     // 后台管理员登陆
-    public function islogin()
-    {
+    public function islogin(){
         if (!isset($_SESSION['admin_name'])) {
             $this->error('对不起,您还没有登录!请先登录再进行浏览', U('Admin/login'), 2);
         } else {
@@ -153,6 +152,39 @@ class ManageController extends Controller
 
         $this->assign('data', $data);
         $this->display();
+    }
+
+    // 修改电影
+    public function alterfilm()
+    {
+        $this->islogin();
+        $film = D('film');
+
+        if (IS_POST) {
+            $Model = new \Think\Model(); // 实例化一个model对象 没有对应任何数据表
+            //info 部分  先进行转码
+            $info=$_POST['info'];
+            $info = htmlspecialchars_decode($info);
+            $sql = "UPDATE booking_film 
+                    SET filmname ='".$_POST['filmname'].
+                     "',zhuyan = '".$_POST['zhuyan'].
+                     "',info = '".$_POST['info'].
+                     "' WHERE filmid = ".$_GET["filmid"];
+            //dump($sql);
+           if ($Model->execute($sql)) {
+                $this->success("修改成功", U("updatefilm"), 2);
+            } else {
+                $this->error("修改失败", U("updatefilm"), 2);
+            }
+
+        }elseif ($_GET["filmid"]) {
+            // get 请求 发出 修改请求 并且回显数据
+            $sql = "SELECT * FROM booking_film WHERE filmid=" . $_GET["filmid"];
+            $film = $film->query($sql);
+            $this->assign('data', $film);
+           // dump($film);
+            $this->display();
+        }
     }
 
     public function usermanage()

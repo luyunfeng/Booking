@@ -1,0 +1,39 @@
+[ 2017-05-06T14:04:43+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 小林家的龙仆,  zhuyan = 戴维,  info = <p><img src=\"/Booking/UploadIma' at line 1
+
+[ 2017-05-06T14:07:27+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 企鹅,  zhuyan = 戴维,  info = <p><img src=\"/Booking/UploadImage/20170506/' at line 1
+
+[ 2017-05-06T14:10:15+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 企鹅,zhuyan = 戴维,info = <p><img src=\"/Booking/UploadImage/20170506/1494' at line 1
+
+[ 2017-05-06T14:10:21+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 企鹅,zhuyan = 戴维,info = <p><img src=\"/Booking/UploadImage/20170506/1494' at line 1
+
+[ 2017-05-06T14:10:31+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 企鹅,zhuyan = 戴维,info = <p><img src=\"/Booking/UploadImage/20170506/1494' at line 1
+
+[ 2017-05-06T14:13:09+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="企鹅",zhuyan = "戴维",info = "<p><img src=\"/Booking/UploadImage/20170506/' at line 1
+
+[ 2017-05-06T14:14:07+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="企鹅",zhuyan = "戴维",info = "<p><img src=\"/Booking/UploadImage/20170506/' at line 1
+
+[ 2017-05-06T14:14:39+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=\'企鹅\',zhuyan = \'戴维\',info = \'<p><img src=\"/Booking/UploadImage/2017' at line 1
+
+[ 2017-05-06T14:15:01+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='企鹅',zhuyan = '戴维',info = '<p><img src=\"/Booking/UploadImage/20170506/' at line 1
+
+[ 2017-05-06T14:19:39+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<p><img src=\"/Booking/UploadImage/20170506/1494048531985229.png\" title=\"14940' at line 1
+
+[ 2017-05-06T14:25:14+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE filmid =' at line 2
+
+[ 2017-05-06T14:25:55+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<p><img src=\"/Booking/UploadImage/20170506/1494048531985229.png\" title=\"14940' at line 2
+
+[ 2017-05-06T14:27:21+08:00 ] 127.0.0.1 /Booking/index.php/Back/Manage/alterfilm.html?filmid=16
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<p><img src=\"/Booking/UploadImage/20170506/1494048531985229.png\" title=\"14940' at line 2
+

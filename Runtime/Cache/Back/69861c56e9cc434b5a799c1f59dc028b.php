@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>管理中心</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="<?php echo (C("BACK_CSS_URL")); ?>admin.css" type="text/css" rel="stylesheet"/>
     <link href="<?php echo (C("BACK_CSS_URL")); ?>styles.css" type="text/css" rel="stylesheet"  media="all" >
     <script type="text/javascript" src="<?php echo (C("BACK_JS_URL")); ?>jquery.min.js"></script>
@@ -15,18 +16,13 @@
          chmod -R 777 目录*/
         UEDITOR_CONFIG.toolbars = [[
             'fullscreen', 'source', '|', 'undo', 'redo', '|',
-            'bold', 'italic', 'underline', 'fontborder', 'strikethrough',
-            'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset',
-            'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist',
-            'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
             'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
             'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
             'directionalityltr', 'directionalityrtl', 'indent', '|',
-            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|',
-            'touppercase', 'tolowercase', '|',
-            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright',
-            'imagecenter', '|',
-            'simpleupload', 'insertimage',
+            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|', 'touppercase', 'tolowercase', '|',
+            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+            'simpleupload', 'insertimage', 'emotion', 'scrawl', 'insertvideo', 'music', 'attachment', 'map', 'gmap', 'insertframe',
 
         ]];
 
@@ -105,11 +101,11 @@
     <table class="table_a" border="1" width="100%">
         <tbody>
         <tr style="font-weight: bold;">
-            <td>编号</td>
-            <td>电影名字</td>
-            <td>主演</td>
-            <td>电影详情</td>
-            <td align="center">操作</td>
+            <td style="width: 2%;">编号</td>
+            <td style="width: 5%;">电影名字</td>
+            <td style="width: 5%;">主演</td>
+            <td style="width: 80%;">电影详情</td>
+            <td style="width: 10%;" align="center">操作</td>
         </tr>
 
         <?php if(is_array($data)): foreach($data as $key=>$v): ?><tr id="product1">
@@ -119,7 +115,11 @@
             <td><?php echo ($v["zhuyan"]); ?></td>
             <td><?php echo ($v["info"]); ?></td>
             <!--通过URL参数传递需要删除的电影id-->
-            <td>  <a onclick="if (confirm('确定要删除吗？')) return true; else return false;" href="<?php echo U('Manage/updatefilm');?>?filmid=<?php echo ($v["filmid"]); ?>">删除</a></td>
+            <td>  <a onclick="if (confirm('确定要删除吗？')) return true; else return false;"
+                     href="<?php echo U('Manage/updatefilm');?>?filmid=<?php echo ($v["filmid"]); ?>">你可以删除</a><br/><br/>
+                  <a href="<?php echo U('Manage/alterfilm');?>?filmid=<?php echo ($v["filmid"]); ?>">也可以修改</a>
+
+            </td>
         </tr><?php endforeach; endif; ?>
         <tr>
             <td colspan="20" style="text-align: center;">

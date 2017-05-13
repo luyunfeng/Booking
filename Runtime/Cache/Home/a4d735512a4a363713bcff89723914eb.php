@@ -42,7 +42,6 @@
     </div>
 </header>
 <!-- end header -->
-
 <!-- start navigation -->
 <nav class="main-navigation">
     <div class="container">
@@ -57,8 +56,9 @@
                 <div class="collapse navbar-collapse" id="main-menu">
                     <ul class="menu">
                         <li class="nav-current" role="presentation"><a href="/Booking">首页</a></li>
-                        <li role="presentation"><a href="<?php echo U('User/login');?>">登陆</a></li>
-                        <li role="presentation"><a href="<?php echo U('User/regist');?>">注册</a></li>
+                        <li role="presentation"><a href="">欢迎！<?php echo ($username); ?></a></li>
+                        <li role="presentation"><a href="<?php echo U('User/usercenter');?>">用户中心</a></li>
+                        <li role="presentation"><a href="<?php echo U('Index/layout');?>">退出登陆</a></li>
                     </ul>
                 </div>
             </div>
@@ -70,7 +70,6 @@
 <section class="content-wrap">
     <div class="container">
         <div class="row">
-
             <main class="col-md-8 main-content">
                 <?php if(is_array($film)): foreach($film as $key=>$v): ?><article id=98 class="post">
                         <div class="post-head">
@@ -93,20 +92,41 @@
                     <a class="older-posts" href="/page/2/"><i class="fa fa-angle-right"></i></a>
                 </nav-->
             </main>
+
             <aside class="col-md-4 sidebar">
+                <!-- start widget -->
+                <!--div class="widget">
+                    <h4 class="title">订单管理</h4>
+                    <div class="content download">
+                        <a href="" class="btn btn-default btn-block"
+                           onclick="">已购三张（1000000000元）</a>
+                    </div>
+                </div-->
+                <!-- end widget -->
+
                 <!-- start tag cloud widget -->
                 <div class="widget">
                     <h4 class="title">影院火热</h4>
                     <div class="content tag-cloud">
                         <a href="">我不是潘金莲</a>
+
+
                         <a href="">...</a>
                     </div>
                 </div>
                 <!-- end tag cloud widget -->
-            </aside>
+
+                <!-- start widget -->
+                <!-- end widget -->
+
+                <!-- start widget -->
+                <!-- end widget -->                </aside>
+
         </div>
     </div>
 </section>
+
+
 <div class="copyright">
     <div class="container">
         <div class="row">

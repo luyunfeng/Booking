@@ -7,11 +7,11 @@
     <table class="table_a" border="1" width="100%">
         <tbody>
         <tr style="font-weight: bold;">
-            <td>编号</td>
-            <td>电影名字</td>
-            <td>主演</td>
-            <td>电影详情</td>
-            <td align="center">操作</td>
+            <td style="width: 2%;">编号</td>
+            <td style="width: 5%;">电影名字</td>
+            <td style="width: 5%;">主演</td>
+            <td style="width: 80%;">电影详情</td>
+            <td style="width: 10%;" align="center">操作</td>
         </tr>
 
         <foreach name="data" item="v">
@@ -22,7 +22,11 @@
             <td>{$v.zhuyan}</td>
             <td>{$v.info}</td>
             <!--通过URL参数传递需要删除的电影id-->
-            <td>  <a onclick="if (confirm('确定要删除吗？')) return true; else return false;" href="{:U('Manage/updatefilm')}?filmid={$v.filmid}">删除</a></td>
+            <td>  <a onclick="if (confirm('确定要删除吗？')) return true; else return false;"
+                     href="{:U('Manage/updatefilm')}?filmid={$v.filmid}">你可以删除</a><br/><br/>
+                  <a href="{:U('Manage/alterfilm')}?filmid={$v.filmid}">也可以修改</a>
+
+            </td>
         </tr>
         </foreach>
         <tr>

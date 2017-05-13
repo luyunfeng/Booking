@@ -69,6 +69,8 @@ class BuyController extends Controller
         $this->assign('buydata', $buydata);
         $this->display();
     }
+
+    // 用来 处理 buy.htm页面
     public function buy()
     {
         //判断是否登陆
@@ -109,11 +111,13 @@ class BuyController extends Controller
                              booking_playtime.price
                       FROM booking_playtime
                       WHERE booking_playtime.playid=" . $_GET["playid"];
+            // 座位信息
             $seatdata = $ticket_1->query($sql_1);
+            // 播放的一些信息
             $playdata = $ticket_2->query($sql_2);
             //dump($playdata);
-            //将已选座位信息 传到前台
-            dump($seatdata);
+            //将座位信息 传到前台
+           // dump($seatdata);
             $this->assign('seatdata', $seatdata);
             // 将当前的 playid price time 播放时间传入前台
             $this->assign('playdata', $playdata);

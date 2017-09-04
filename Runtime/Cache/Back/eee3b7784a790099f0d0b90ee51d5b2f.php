@@ -70,6 +70,12 @@
 
                 </ul>
             </li>
+            <li><a class="no" href="">评论管理</a>
+                <ul>
+                    <li><a href="<?php echo U('Manage/comment');?>">show</a></li>
+                </ul>
+            </li>
+
 
         </ul>
     </nav>
@@ -116,5 +122,7 @@
         </tbody>
     </table>
 </div>
+
+
 </body>
 </html>

@@ -201,6 +201,16 @@ class ManageController extends Controller
         $this->assign('data', $data);
         $this->display();
     }
+    public function comment()
+    {
+        $this->display();
+    }
+
+
+    public function menu()
+    {
+        $this->display();
+    }
 
 
 }

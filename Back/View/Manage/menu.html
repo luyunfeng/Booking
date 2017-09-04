@@ -1,0 +1,88 @@
+{__NOLAYOUT__}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>管理中心</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="{$Think.config.BACK_CSS_URL}admin.css" type="text/css" rel="stylesheet"/>
+    <link href="{$Think.config.BACK_CSS_URL}styles.css" type="text/css" rel="stylesheet"  media="all" >
+    <script type="text/javascript" src="{$Think.config.BACK_JS_URL}jquery.min.js"></script>
+    <link href="{$Think.config.BACK_CSS_URL}mine.css" type="text/css" rel="stylesheet">
+
+    <script type="text/javascript" charset="utf-8" src="{$Think.config.PLUGIN_URL}ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{$Think.config.PLUGIN_URL}ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="{$Think.config.PLUGIN_URL}ueditor/lang/zh-cn/zh-cn.js"></script>
+
+</head>
+<body>
+<!--头部-->
+<table cellspacing=0 cellpadding=0 width="100%"
+       background="{$Think.config.BACK_IMG_URL}header_bg.jpg" border=0>
+    <tr height=56>
+        <td width=260><img height=56 src="{$Think.config.BACK_IMG_URL}header_left.jpg"
+                           width=260></td>
+        <td style="font-weight: bold; color: #fff; padding-top: 20px" align=middle>当前用户：{$admin_name}
+            &nbsp;
+            <a style="color: #fff"
+               onclick="if (confirm('确定要退出吗？')) return true; else return false;"
+               href="{:U('Admin/layout')}"
+               target=_top>退出系统</a>
+        </td>
+        <td align=right width=268>
+            <img height=56 src="{$Think.config.BACK_IMG_URL}header_right.jpg" width=268>
+        </td>
+    </tr>
+</table>
+<div id="w">
+    <nav>
+        <ul id="ddmenu">
+            <li><a class="no" href="{:U('Manage/index')}">管理中心</a></li>
+            <li><a class="no" href="">电影管理</a>
+                <ul>
+                    <li><a href="{:U('Manage/addfilm')}">添加电影</a></li>
+                    <li><a href="{:U('Manage/updatefilm')}">修改电影</a></li>
+
+                </ul>
+            </li>
+            <li><a class="no" href="">电影播放管理</a>
+                <ul>
+                    <li><a href="{:U('Manage/showfilm')}">添加电影场次</a></li>
+                    <li><a href="{:U('Manage/updateplay')}">电影场次修改</a></li>
+                </ul>
+            </li>
+            <li><a class="no" href="">用户管理</a>
+                <ul>
+                    <li><a href="{:U('Manage/usermanage')}">更新用户信息</a></li>
+
+                </ul>
+            </li>
+            <li><a class="no" href="">评论管理</a>
+                <ul>
+                    <li><a href="{:U('Manage/comment')}">show</a></li>
+                </ul>
+            </li>
+
+
+        </ul>
+    </nav>
+</div>
+<script type="text/javascript">
+    //关闭a标签的默认功能
+    $(document).ready(function(){
+        $('#no').on('click', function(e){
+            e.preventDefault();
+        });
+
+        $('#ddmenu li').hover(function () {
+            clearTimeout($.data(this,'timer'));
+            $('ul',this).stop(true,true).slideDown(200);
+        }, function () {
+            $.data(this,'timer', setTimeout($.proxy(function() {
+                $('ul',this).stop(true,true).slideUp(200);
+            }, this), 100));
+        });
+
+    });
+</script>
+</body>
+</html>

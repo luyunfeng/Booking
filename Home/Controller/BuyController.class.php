@@ -89,6 +89,7 @@ class BuyController extends Controller
          * */
 
         if ($_GET["filmid"]) {
+            $this->assign("filmId",$_GET["filmid"]);
             $film = D();
             $sql = "SELECT booking_film.filmname,
                          booking_film.filmid,
@@ -122,6 +123,7 @@ class BuyController extends Controller
             // 将当前的 playid price time 播放时间传入前台
             $this->assign('playdata', $playdata);
         }
+
             $this->display();
     }
 }

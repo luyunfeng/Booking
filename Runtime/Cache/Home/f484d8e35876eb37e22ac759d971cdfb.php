@@ -52,7 +52,7 @@
                 <td><?php echo ($v["time"]); ?></td>
                 <td><?php echo ($v["selltime"]); ?></td>
                 <td><?php echo ($v["seat"]); ?></td>
-                <td> <a href="/Booking/index.php/Home/Buy/buylist.html?playid=12&seat_arr0=1_10&seat_arr1=2_10&ticketid=<?php echo ($v["ticketid"]); ?>">退订</a></td>
+                <td> <a href="/Booking/index.php/Home/Buy/buylist.html?playid=12&seat_arr0=1_8&ticketid=478&ticketid=<?php echo ($v["ticketid"]); ?>">退订</a></td>
             </tr><?php endforeach; endif; ?>
         </tbody>
     </table>

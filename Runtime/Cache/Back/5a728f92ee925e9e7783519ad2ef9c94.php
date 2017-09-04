@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>管理中心</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="<?php echo (C("BACK_CSS_URL")); ?>admin.css" type="text/css" rel="stylesheet"/>
     <link href="<?php echo (C("BACK_CSS_URL")); ?>styles.css" type="text/css" rel="stylesheet"  media="all" >
     <script type="text/javascript" src="<?php echo (C("BACK_JS_URL")); ?>jquery.min.js"></script>
@@ -15,18 +16,13 @@
          chmod -R 777 目录*/
         UEDITOR_CONFIG.toolbars = [[
             'fullscreen', 'source', '|', 'undo', 'redo', '|',
-            'bold', 'italic', 'underline', 'fontborder', 'strikethrough',
-            'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset',
-            'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist',
-            'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
             'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
             'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
             'directionalityltr', 'directionalityrtl', 'indent', '|',
-            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|',
-            'touppercase', 'tolowercase', '|',
-            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright',
-            'imagecenter', '|',
-            'simpleupload', 'insertimage',
+            'justifyleft', 'justifycenter', 'justifyright', 'justifyjustify', '|', 'touppercase', 'tolowercase', '|',
+            'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+            'simpleupload', 'insertimage', 'emotion', 'scrawl', 'insertvideo', 'music', 'attachment', 'map', 'gmap', 'insertframe',
 
         ]];
 

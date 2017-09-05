@@ -70,6 +70,12 @@
 
                 </ul>
             </li>
+            <li><a class="no" href="">评论管理</a>
+                <ul>
+                    <li><a href="<?php echo U('Manage/comment');?>" target="view_window">show</a></li>
+                </ul>
+            </li>
+
 
         </ul>
     </nav>
@@ -99,7 +105,7 @@
             </span>
 </div>
 <div style="font-size: 13px;margin: 10px 5px">
-    <form action="/Booking/index.php/Back/Manage/alterfilm.html?filmid=17" method="post" enctype="multipart/form-data">
+    <form action="/Booking/index.php/Back/Manage/alterfilm.html?filmid=19" method="post" enctype="multipart/form-data">
         <table border="1" width="100%" class="table_a">
             <tr>
                 <td>电影名称</td>
